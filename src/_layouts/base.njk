@@ -7,13 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | url }}">
     <title>Zodi Chalat - {{title}}</title>
   </head>
   <body>
   {% include "partials/_navigation.njk" %}
   <main class="max-w-3xl mx-auto my-8 bg-blue-500 text-left"> 
     {{content | safe}}
+
+  <script src="/assets/js/script.js"></script>
   </main>
   </body>
 </html>
