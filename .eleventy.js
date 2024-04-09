@@ -2,6 +2,7 @@ module.exports = function(eleventyConfig){
     eleventyConfig.addPassthroughCopy("src/assets/css/style.css");
     eleventyConfig.addPassthroughCopy("src/assets/js/script.js");
     eleventyConfig.addPassthroughCopy("src/assets/imgs/favicon.ico");
+    eleventyConfig.addPassthroughCopy("src/assets/imgs/grobie.png");
     eleventyConfig.addPlugin(require("eleventy-plugin-heroicons"));
 
     eleventyConfig.addShortcode(
