@@ -3,9 +3,9 @@
     "start": "npm-run-all -p dev:*",
     "build": "run-s build:*",
     "dev:11ty": "eleventy --serve",
-    "dev:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --watch --postcss",
+    "dev:css": "tailwindcss -i src/assets/css/tailwind.css -o docs/assets/css/tailwind.css --watch --postcss",
     "build:11ty": "eleventy",
-    "build:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --postcss"
+    "build:css": "tailwindcss -i src/assets/css/tailwind.css -o docs/assets/css/tailwind.css --postcss"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
