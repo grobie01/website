@@ -1,7 +1,7 @@
 ---
 layout: base
-title: "Bike"
+title: "About Me"
 tags: page
 ---
 
-# Bike
+# About Me

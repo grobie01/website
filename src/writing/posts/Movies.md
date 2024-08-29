@@ -1,7 +1,7 @@
 ---
 title: The $100 Movie
 layout: blogpost
-tags: post
+tags: bpost
 ---
 
 # The $100 Movie: How AI is Transforming the Film Industry

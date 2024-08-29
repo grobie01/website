@@ -3,24 +3,44 @@ layout: base
 title: Home
 tags: page
 ---
-<div class="space-y-4">
+<div class="flex space-x-4">
+    <div class="w-1/2 space-y-4">
+        <p>
+            Hi, I'm <span class="font-bold">Zodi</span>.
+        </p>
 
-<p>
-    "You’d better get busy, though, buddy. The goddamn sands run out on you every time you turn around. I know what I’m talking about. You’re lucky if you get time to sneeze in this goddamn phenomenal world.
-</p>
-<p>
-    "I used to worry about that. I don’t worry about it very much any more. At least I’m still in love with Yorick’s skull. At least I always have time enough to stay in love with Yorick’s skull. I want an honorable goddamn skull when I’m dead, buddy. I hanker after an honorable goddamn skull like Yorick’s."
-</p>
+        <p>
+            I'm an early-stage investor and engineer living in <span class="font-bold">San Francisco</span>.
+        </p>
+
+        <p>
+            I spend way too much time on Wikipedia and doing flashcards. If you want to know me, <a class="text-blue-500 underline" href="https://warnoodle.com" target="_blank" rel="noopener noreferrer">drop a line</a> or come to a homework dinner. Talk to me about terraforming, my special interests, or whatever makes you tick. 
+        </p>
+
+        <p>
+            I think about this quote sometimes:
+        </p>
+
+        <p>
+            "You’d better get busy, though, buddy. The goddamn sands run out on you every time you turn around. I know what I’m talking about. You’re lucky if you get time to sneeze in this goddamn phenomenal world."
+        </p>
+        <p>
+            Learn more about me <a href="about" class="text-blue-500 underline">here</a>.
+        </p>
+    </div>
+    <div class="w-1/2">
+        <img src="/assets/imgs/zodi.jpg" alt="Zodi's Image" class="w-full h-auto border-black border">
+    </div>
 </div>
 <br>
 <b>Me, to date:</b>
 
 <div class="my-4">
-    {% experience "2023-now", "BoxGroup", "Investor", "Early stage investor mainly covering AI but love talking to founders of anything!"%}
-    {% experience "2022-2023", "Netflix", "ML Engineer", "Spent most of my time writing Clojure working on an orchestrator for all experiments run on the recommendation system."%}
+    {% experience "2023-now", "BoxGroup", "Investor", "Working with brilliant scrappy founders at the earliest stages. I spend most of my time on AI, deeptech, and energy and would love to hear about what you are building."%}
+    {% experience "2022-2023", "Netflix", "ML Engineer", "Spent most of my time writing Clojure and developed an enormous appreciation for Lisp based langauges"%}
     {% experience "2017-2022", "Yale", "Student", "Studied mostly computer science and comparative literature. I like computers processing language just as humans processing language. I also somehow ended up captain of the men's polo team (yes, the kind on horses)."%}
-    {% experience "2016-2017", "Finland", "Loafer", "Spent a year in the happiest country on Earth cross-country skiing, eating reindeer, and learning Elvish."%}
-    {% experience "1998-2016", "Maine", "Young Man", "Coming of age, mostly. You should try it -- it's exhausting."%}
+    {% experience "2016-2017", "Finland", "Gap Year", "Spent a year in the happiest country on Earth cross-country skiing, eating reindeer, and learning Elvish."%}
+    {% experience "1998-2016", "Maine", "Young Man", "Coming of age, mostly. Skiing periodically."%}
     
     <!-- <div>
         <div class="flex justify-between cursor-pointer" onclick="toggleExpand(this)">

@@ -1,7 +1,7 @@
 ---
 title: Things I’ve bought
 layout: blogpost
-tags: post
+tags: bpost
 ---
 
 ## Things I’ve bought

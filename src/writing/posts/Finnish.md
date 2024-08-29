@@ -1,7 +1,7 @@
 ---
 title: Synethic Languages and LLMs
 layout: blogpost
-tags: post
+tags: bpost
 ---
 # How LLMs Understand Synthetic Languages
 
