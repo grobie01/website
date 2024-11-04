@@ -56,7 +56,7 @@
   <main class="max-w-3xl mx-auto my-8 text-left"> 
     
 <article class="prose lg:prose-xl prose-a:text-blue-500 prose-a:underline">
-    <h1>Building a Local AI Landline Phone</h1>
+    <h1>Running Llama on a Landline</h1>
 <p><img src="/assets/imgs/phone.png" alt="phone.png"></p>
 <p>One day a year, venture firms take a day off from meeting founders to instead tell their investors all about the work they do. These “annual general meetings” are important because they help inform whether shareholders want to continue investing in future funds. Here’s something you don’t want — the associate who’s been at the firm for two weeks answering questions about things he’s not quite up to speed on. If only venture firms had the equivalent of a call center’s “let me transfer you to a representative who can help you”. In order to prepare for this year’s annual meeting, I built just that — a landline phone investors can pick up and talk to an AI who knows everything worth sharing about our fund. Here’s the challenge, we can’t send private portfolio data to OpenAI or 11Labs, so this all needed to run locally. This project ended up being a very fun way to see how quickly you can stitch together local models that run surprisingly quickly. I drew a lot of inspiration from <a href="https://github.com/mezbaul-h/june">june</a>, so definitely check that out! Alright, let’s get into it.</p>
 <p>A voice chatbot fundamentally relies on three component models: speech-to-text, text-to-text (i.e. an LLM), and text-to-speech. This will get more complicated later on, but for now let’s focus on these three. We can make a class for each one:</p>

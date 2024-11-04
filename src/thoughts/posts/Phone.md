@@ -4,7 +4,7 @@ layout: blogpost
 tags: bpost
 ---
 
-# Building a Local AI Landline Phone
+# Running Llama on a Landline
 
 ![phone.png](/assets/imgs/phone.png)
 
